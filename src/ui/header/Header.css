@@ -10,6 +10,12 @@ header h1 {
     margin: 0;
 }
 
-header p {
+header p,
+header + p {
     font-weight: 600;
+}
+
+header + p {
+    margin-top: 0;
+    text-align: left;
 }
