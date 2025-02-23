@@ -1,0 +1,15 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    font-weight: 600;
+}
