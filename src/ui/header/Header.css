@@ -4,6 +4,17 @@ header {
     justify-content: space-between;
     align-items: flex-start;
     gap: 1rem;
+    min-height: 75px;
+}
+
+.score p {
+    margin: 0;
+}
+
+.score {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
 
 header h1 {
